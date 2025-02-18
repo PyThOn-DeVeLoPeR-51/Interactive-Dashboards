@@ -4,7 +4,7 @@ import plotly.express as px
 from numerize.numerize import numerize
 from streamlit import title
 
-st.set_page_config(page_title="Dashboard", page_icon=":earth_americas:", layout="wide")
+st.set_page_config(page_title="Dashboard", page_icon=":chart_with_upwards_trend:", layout="wide")
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
 html_title = """
     <style>
